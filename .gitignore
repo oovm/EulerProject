@@ -14,4 +14,3 @@ yarn-error.log*
 Thumbs.db
 .DS_Store
 docs/.build/
-docs/.vuepress/public/
