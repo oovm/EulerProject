@@ -16,4 +16,8 @@ footer: CC0 Licensed | Copyright © 2012-2019 Aster™
 
 网页托管于: [![Netlify Status](https://api.netlify.com/api/v1/badges/f5a3d7c8-c7f9-4f6f-86d9-c28dc4fb5a2e/deploy-status)](https://app.netlify.com/sites/euler-project/deploys)
 
-部分代码写于 6 年前, 可能因为种种原因无法运行.
+部分代码写于 8 年前, 可能因为种种原因无法运行.
+
+如果页面中含有 `{{}}`, 就会与模板引擎冲突
+
+可使用:　https://github.com/GalAster/MarkdownMathFix　解决
