@@ -6,7 +6,8 @@
     },
     "dependencies": {
         "vuepress": "^1.5.4",
-        "vuepress-plugin-mathjax": "^1.2.8"
+        "vuepress-plugin-mathjax": "^1.2.8",
+        "vuepress-plugin-shiki": "^0.2.1"
     },
     "devDependencies": {}
 }
