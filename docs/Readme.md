@@ -19,18 +19,22 @@ footer: CC0 Licensed | Copyright © 2012-2019 Aster™
 
 可使用: [MarkdownMathFix](https://galaster.github.io/MathFix/) 解决
 
+### Links
+
 https://projecteuler.net/archives
 
 http://pe-cn.github.io/problems/
 
+http://tinyambition.com/h2m/
+
 ---
 
-### 格式化
+### Formatter
 
-检查中文全角符号
+在提交前先检查格式化
 
-检查盘古之白
-
-检查 数字与字母是否是数学格式
-
-检查 ≤  ⩽ ⩾ ⩾
+- 检查 中文全角符号
+- 检查 盘古之白
+- 检查 数字与字母是否是数学格式
+- 检查 ≤ ⩽ ≥ ⩾
+- 检查 代码格式化
