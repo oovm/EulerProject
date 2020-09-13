@@ -5,9 +5,6 @@ actionLink: /Lv0-炼气/1-10.md
 footer: CC0 Licensed | Copyright © 2012-2019 Aster™
 ---
 
-
-
-
 欧拉挑战是一系列有挑战性的数学与计算机编程题; 要解开它们, 需要的不止是数学知识:尽管数学能够帮助你找到一些优雅而有效的方法, 大多数题目仍需要借助计算机和编程技巧来完成解答.
 
 创立欧拉挑战的初衷, 以及不断维持其运行的动力, 在于为好奇的头脑提供一个平台, 使他们能够在有趣愉悦的氛围中, 探索未知领域, 学习新的知识.
@@ -20,4 +17,24 @@ footer: CC0 Licensed | Copyright © 2012-2019 Aster™
 
 如果页面中含有 `{{}}`, 就会与模板引擎冲突
 
-可使用:　https://github.com/GalAster/MarkdownMathFix　解决
+可使用: [MarkdownMathFix](https://galaster.github.io/MathFix/) 解决
+
+### Links
+
+https://projecteuler.net/archives
+
+http://pe-cn.github.io/problems/
+
+http://tinyambition.com/h2m/
+
+---
+
+### Formatter
+
+在提交前先检查格式化
+
+- 检查 中文全角符号
+- 检查 盘古之白
+- 检查 数字与字母是否是数学格式
+- 检查 ≤ ⩽ ≥ ⩾
+- 检查 代码格式化

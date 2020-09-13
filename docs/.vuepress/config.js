@@ -1,3 +1,5 @@
+let path = require("path")
+
 module.exports = {
     dest: 'docs/.build',
     locales: {
@@ -45,9 +47,9 @@ module.exports = {
                     ['/Lv1-旋照/141-150.md', 'Level141-150'],
                     ['/Lv1-旋照/151-160.md', 'Level151-160'],
                     ['/Lv1-旋照/161-170.md', 'Level161-170'],
-                                        ['/Lv1-旋照/171-180.md', 'Level151-160'],
-                                        ['/Lv1-旋照/181-190.md', 'Level161-170'],
-                                        ['/Lv1-旋照/191-200.md', 'Level161-170'],
+                    ['/Lv1-旋照/171-180.md', 'Level151-160'],
+                    ['/Lv1-旋照/181-190.md', 'Level161-170'],
+                    ['/Lv1-旋照/191-200.md', 'Level161-170'],
                 ]
             },
             {
@@ -118,5 +120,18 @@ module.exports = {
             target: 'chtml',
             presets: [],
         },
+        shiki: {
+            theme: 'monokai',
+            langs: [
+                {
+                    id: 'wolfram',
+                    scopeName: 'source.wolfram',
+                    path: path.resolve(__dirname, 'public/wl.tmLanguage.json'),
+                    aliases: [
+                        'wl', 'mma', "mathematica"
+                    ]
+                }
+            ]
+        }
     }
 };
